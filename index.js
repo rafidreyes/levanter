@@ -1,6 +1,7 @@
 const { Client, logger } = require('./lib/client')
 const { DATABASE, VERSION } = require('./config')
 const { stopInstance } = require('./lib/pm2')
+const SESSION_ID = 'levanter_18cfab200b477e44c9840e653732520633'
 
 const start = async () => {
   logger.info(`levanter ${VERSION}`)
